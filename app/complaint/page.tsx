@@ -38,10 +38,10 @@ export default function ComplaintPage() {
       <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">
-            We're here to help
+            We&apos;re here to help
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We're committed to providing excellent customer service. If you have any concerns 
+            We&apos;re committed to providing excellent customer service. If you have any concerns 
             about your account, transactions, or our services, please let us know.
           </p>
         </div>

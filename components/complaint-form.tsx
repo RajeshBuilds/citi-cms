@@ -8,7 +8,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Label } from "@/components/ui/label"
 import {
   Select,
   SelectContent,
@@ -126,7 +125,7 @@ export function ComplaintForm() {
             <Alert className="mb-6 border-green-200 bg-green-50">
               <CheckCircle className="h-4 w-4 text-green-600" />
               <AlertDescription className="text-green-800">
-                Your complaint has been submitted successfully. We'll contact you within 24-48 hours.
+                Your complaint has been submitted successfully. We&apos;ll contact you within 24-48 hours.
               </AlertDescription>
             </Alert>
           )}
