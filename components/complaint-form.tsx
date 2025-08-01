@@ -41,16 +41,16 @@ const complaintFormSchema = z.object({
     "technical_issue",
     "other"
   ], {
-    required_error: "Please select a complaint type",
+    message: "Please select a complaint type",
   }),
   subject: z.string().min(5, "Subject must be at least 5 characters"),
   description: z.string().min(20, "Description must be at least 20 characters"),
   contactPhone: z.string().min(10, "Please enter a valid phone number"),
   preferredContact: z.enum(["phone", "email"], {
-    required_error: "Please select preferred contact method",
+    message: "Please select preferred contact method",
   }),
   urgency: z.enum(["low", "medium", "high"], {
-    required_error: "Please select urgency level",
+    message: "Please select urgency level",
   }),
 })
 
@@ -117,7 +117,7 @@ export function ComplaintForm() {
             File a Complaint
           </CardTitle>
           <CardDescription className="text-center">
-            We're here to help resolve your banking concerns. Please provide the details below.
+            We&apos;re here to help resolve your banking concerns. Please provide the details below.
           </CardDescription>
         </CardHeader>
         
